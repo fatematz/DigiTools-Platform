@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from "./Navbar"
 import Banner from "./Banner"
+import StatsSection from "./StatsSection"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,8 @@ function App() {
      
 
       <Banner></Banner>
+
+      <StatsSection></StatsSection>
       
 
       <div className="ticks"></div>
