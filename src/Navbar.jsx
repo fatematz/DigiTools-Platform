@@ -28,7 +28,7 @@ const Navbar = () => {
                         <div className=""><ShoppingCart></ShoppingCart></div>
                         <div className="">Login</div>
                         <div className="">
-                            <a className='btn  bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold  rounded-full '>Get Started</a>
+                            <button className='btn  bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold  rounded-full '>Get Started</button>
                             </div>
                     </div>
                 </div>

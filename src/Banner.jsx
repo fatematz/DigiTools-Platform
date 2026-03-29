@@ -4,32 +4,37 @@ import {Play} from "lucide-react"
 
 const Banner = () => {
     return (
-        <div className='container flex justify-between'>
-            <div className=''>
-                <div className=''>
-                    <span>New: AI-Powered Tools Available</span>
+        <div className='container grid grid-cols-1 md:grid-cols-2 items-center text-center md:text-start p-[20px] md:p-[0px] gap-[50px] md:gap-[150px] py-[40px] md:py-[110px]'>
+            <div className='space-y-8'>
+                <div className='inline-flex items-center gap-2 bg-indigo-100 text-violet-700 font-semibold px-4 py-2 rounded-full'>
+                    <span className='relative flex h-5 w-5 items-center justify-center'>
+                        <span className='absolute h-5 w-5 rounded-full bg-violet-300 opacity-60'></span>
+                        <span className='relative h-3 w-3 rounded-full bg-violet-600'></span>
+                    </span>
+                    New: AI-Powered Tools Available
                 </div>
 
                 <div className=''>
-                    <h1>Supercharge YourDigital Workflow</h1>
+                    <h1 className="text-5xl font-bold leading-[1.2]">Super charge Your
+                        Digital Workflow</h1>
                 </div>
 
                 <div className=''>
-                    <p>
+                    <p className="text-[18px] leading-[1.2] ">
                         Access premium AI tools, design assets, templates, and
                         productivity software—all in one place. Start creating
                         faster today. Explore Products
                     </p>
                 </div>
 
-                <div className=''>
-                    <button>Explore Products</button>
-                    <button><Play></Play> Watch Demo</button>
+                <div className='flex gap-4 justify-center md:justify-start '>
+                    <button className='btn  bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold  rounded-full '>Explore Products</button>
+                    <button className="flex btn font-semibold rounded-full text-purple-700 border border-purple-700 hover:bg-purple-700 hover:text-white"><Play></Play> Watch Demo</button>
                 </div>
             </div>
 
             <div className="">
-            <div className=''>
+            <div className='flex justify-center md:justify-end'>
                 <img src={bannerImg} alt='' />
                 </div>
                 </div>
