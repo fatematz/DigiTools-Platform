@@ -14,12 +14,12 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div className='navbar-center hidden lg:flex'>
-                        <ul className='menu menu-horizontal px-1 gap-4'>
-                            <li className="font-semibold">Products</li>
-                            <li className="font-semibold">Features</li>
-                            <li className="font-semibold">Pricing</li>
-                            <li className="font-semibold">Testimonials</li>
-                            <li className="font-semibold">FAQ</li>
+                        <ul className='menu menu-horizontal px-1 gap-5'>
+                            <li className="font-semibold text-[18px]">Products</li>
+                            <li className="font-semibold text-[18px]">Features</li>
+                            <li className="font-semibold text-[18px]">Pricing</li>
+                            <li className="font-semibold text-[18px]">Testimonials</li>
+                            <li className="font-semibold text-[18px]">FAQ</li>
                         </ul>
 
                         <ul></ul>
