@@ -1,6 +1,6 @@
 import React from 'react'
-import bannerImg from '../assats/banner.png'
-import {Play} from "lucide-react"
+import bannerImg from '../assets/banner.png'
+import { Play } from 'lucide-react'
 
 const Banner = () => {
     return (
@@ -15,12 +15,13 @@ const Banner = () => {
                 </div>
 
                 <div className=''>
-                    <h1 className="text-5xl font-bold leading-[1.2]">Super charge Your
-                        Digital Workflow</h1>
+                    <h1 className='text-5xl font-bold leading-[1.2]'>
+                        Super charge Your Digital Workflow
+                    </h1>
                 </div>
 
                 <div className=''>
-                    <p className="text-[18px] leading-[1.2] ">
+                    <p className='text-[18px] leading-[1.2] '>
                         Access premium AI tools, design assets, templates, and
                         productivity software—all in one place. Start creating
                         faster today. Explore Products
@@ -28,16 +29,20 @@ const Banner = () => {
                 </div>
 
                 <div className='flex gap-4 justify-center md:justify-start '>
-                    <button className='btn  bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold  rounded-full '>Explore Products</button>
-                    <button className="flex btn font-semibold rounded-full text-purple-700 border border-purple-700 hover:bg-purple-700 hover:text-white"><Play></Play> Watch Demo</button>
+                    <button className='btn  bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold  rounded-full '>
+                        Explore Products
+                    </button>
+                    <button className='flex btn font-semibold rounded-full text-purple-700 border border-purple-700 hover:bg-purple-700 hover:text-white'>
+                        <Play></Play> Watch Demo
+                    </button>
                 </div>
             </div>
 
-            <div className="">
-            <div className='flex justify-center md:justify-end'>
-                <img src={bannerImg} alt='' />
+            <div className=''>
+                <div className='flex justify-center md:justify-end'>
+                    <img src={bannerImg} alt='' />
                 </div>
-                </div>
+            </div>
         </div>
     )
 }

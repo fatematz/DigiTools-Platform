@@ -6,6 +6,8 @@ import './App.css'
 import Navbar from "./Navbar"
 import Banner from "./Banner"
 import StatsSection from "./StatsSection"
+import StepsSection from "./StepsSection"
+import ReadyTransform from "./ReadyTransform"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +22,10 @@ function App() {
       <Banner></Banner>
 
       <StatsSection></StatsSection>
+
+      <StepsSection></StepsSection>
+
+      <ReadyTransform></ReadyTransform>
       
 
       <div className="ticks"></div>
