@@ -9,6 +9,7 @@ import StatsSection from "./StatsSection"
 import StepsSection from "./StepsSection"
 import ReadyTransform from "./ReadyTransform"
 import Footer from "./Footer"
+import TransparentPricing from "./TransparentPricing"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,8 @@ function App() {
       <StatsSection></StatsSection>
 
       <StepsSection></StepsSection>
+
+      <TransparentPricing></TransparentPricing>
 
       <ReadyTransform></ReadyTransform>
       

@@ -28,7 +28,7 @@ const Banner = () => {
                     </p>
                 </div>
 
-                <div className='flex gap-4 justify-center md:justify-start '>
+                <div className='flex flex-wrap gap-4 justify-center md:justify-start '>
                     <button className='btn  bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold  rounded-full '>
                         Explore Products
                     </button>
