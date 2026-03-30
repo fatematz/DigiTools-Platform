@@ -8,6 +8,7 @@ import Banner from "./Banner"
 import StatsSection from "./StatsSection"
 import StepsSection from "./StepsSection"
 import ReadyTransform from "./ReadyTransform"
+import Footer from "./Footer"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,7 @@ function App() {
 
       <ReadyTransform></ReadyTransform>
       
-
+    <Footer></Footer>
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>

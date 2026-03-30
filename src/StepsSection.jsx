@@ -6,7 +6,7 @@ import rocketImg from '../assets/rocket.png'
 const StepsSection = () => {
     return (
         <div className="bg-gray-50">
-        <div className="container px-5 md:px-0   py-[120px] ">
+        <div className="container px-5 md:px-0 py-[60px]  md:py-[120px] ">
             <div className='text-center'>
                 <h2 className="text-3xl font-black mb-4 ">Get Started in 3 Steps</h2>
                 <p className="text-xl font-bold">Start using premium digital tools in minutes, not hours.</p>

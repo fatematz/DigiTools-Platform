@@ -4,7 +4,7 @@ import {ShoppingCart} from "lucide-react"
 
 const Navbar = () => {
     return (
-        <div className='border-b border-gray-200 py-[16px]  '>
+        <div className='border-b border-gray-200 py-[16px]'>
             <div className='container'>
                 <div className='navbar bg-base-100 '>
                     <div className='navbar-start'>
