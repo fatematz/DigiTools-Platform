@@ -26,7 +26,10 @@ console.log( sentData )
 function App() {
   const [count, setCount]=useState(0)
   
-  const [tab, setTab] = useState(true)
+  const [tab, setTab]=useState(true)
+  const [catchData, setCatchData]=useState([])
+  
+  // console.log( catchData )
 
   return (
     <>
@@ -40,7 +43,7 @@ function App() {
       <StatsSection></StatsSection>
 
       <main>
-        <div className="py-[60px] md:py-[120px]">
+        <div className="py-[60px] md:py-[120px] p-[20px] md:p-[0] ">
           <div className="container">
             <div className="text-center">
               <h2 className="text-3xl font-black">Premium Digital Tools</h2>
@@ -52,14 +55,14 @@ function App() {
 
               <button onClick={() => setTab(true)} className={` btn rounded-full ${tab===true? " bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold":" "}`} > Products </button>
               
-              <button onClick={() => setTab(false)} className={` btn rounded-full ${tab===false? " bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold":" "}`} >Cart (2)</button>
+              <button onClick={() => setTab(false)} className={` btn rounded-full ${tab===false? " bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold":" "}`} >Cart ({catchData.length})</button>
             </div>
 
            
          {tab === true ? (<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-        <MainSection sentData={sentData}></MainSection>
+        <MainSection sentData={sentData} catchData={catchData} setCatchData={setCatchData} ></MainSection>
             </Suspense>):(
-                <Card></Card>
+                <Card catchData={catchData} setCatchData={setCatchData}></Card>
             )}
         
         
