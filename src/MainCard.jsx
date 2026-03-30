@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {FaCheck} from "react-icons/fa";
 
 const getTagColor = (tagType) => {
@@ -8,8 +8,17 @@ const getTagColor = (tagType) => {
 }
 
 const MainCard=({item}) => {
-    console.log( item )
+    // console.log( item )
+
+    const [click, setClick]=useState(false)
+    
+    const handleButton=() => {
+         setClick(!click)
+    }
+
     return (
+
+      
 
         <div  className='relative border border-gray-300 rounded-2xl p-6 bg-white flex flex-col gap-4'>
         
@@ -46,9 +55,16 @@ const MainCard=({item}) => {
         </ul>
 
        
-        <button className='w-full py-3 rounded-full bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold'>
-            Buy Now
-        </button>
+            <button 
+    onClick={handleButton} 
+    className={`w-full py-3 rounded-full text-white font-semibold transition-all ${
+        click 
+        ? 'bg-green-500' 
+        : 'bg-gradient-to-r from-violet-600 to-purple-500' 
+    }`}
+>
+    {click ? "Added to cart" : "Buy Now"}
+</button>
 
     </div>
     );

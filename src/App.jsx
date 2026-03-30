@@ -11,6 +11,7 @@ import ReadyTransform from "./ReadyTransform"
 import Footer from "./Footer"
 import TransparentPricing from "./TransparentPricing"
 import MainSection from "./MainSection"
+import Card from "./Card"
 
 const data=async () => {
   const res=await fetch("Data.json")
@@ -23,7 +24,9 @@ const sentData=data()
 console.log( sentData )
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount]=useState(0)
+  
+  const [tab, setTab] = useState(true)
 
   return (
     <>
@@ -41,18 +44,25 @@ function App() {
           <div className="container">
             <div className="text-center">
               <h2 className="text-3xl font-black">Premium Digital Tools</h2>
-            <p className="text-xl font-bold">Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
+            <p className="text-xl font-bold my-4">Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
             </div>
             
-            <div className="flex flex-wrap gap-4 justify-center items-center">
-              <button>Products</button>
-              <button>Cart (2)</button>
+            <div className="flex flex-wrap gap-4 p-2 rounded-full justify-center items-center border border-gray-400 w-fit mx-auto 
+            ">
+
+              <button onClick={() => setTab(true)} className={` btn rounded-full ${tab===true? " bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold":" "}`} > Products </button>
+              
+              <button onClick={() => setTab(false)} className={` btn rounded-full ${tab===false? " bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold":" "}`} >Cart (2)</button>
             </div>
-         
-        
-        <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+
+           
+         {tab === true ? (<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
         <MainSection sentData={sentData}></MainSection>
-            </Suspense>
+            </Suspense>):(
+                <Card></Card>
+            )}
+        
+        
              </div>
         </div>
       </main>
