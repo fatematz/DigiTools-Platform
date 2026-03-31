@@ -17,8 +17,8 @@ const StepsSection = () => {
                     <div className='flex justify-center items-center bg-violet-300 w-25 h-25 rounded-full p-5 mx-auto'>
                         <img src={createImg} alt='' />
                     </div>
-                    <h3 className="text-center my-2.5">Create Account</h3>
-                    <p className="text-center">
+                    <h3 className="text-center my-2.5 text-[20px] font-bold">Create Account</h3>
+                    <p className="text-center text-[16px] font-semibold">
                         Sign up for free in seconds. No credit card required to
                         get started.
                     </p>
@@ -29,8 +29,8 @@ const StepsSection = () => {
                     <div className=' flex justify-center bg-violet-300 w-25 h-25 rounded-full p-5 mx-auto'>
                         <img src={packageImg} alt="" />
                     </div>
-                    <h3 className="text-center my-2.5">Choose Products</h3>
-                    <p className="text-center">
+                    <h3 className="text-center my-2.5 text-[20px] font-bold">Choose Products</h3>
+                    <p className="text-center text-[16px] font-semibold">
                         Browse our catalog and select the tools that fit your
                         needs.
                     </p>
@@ -41,8 +41,8 @@ const StepsSection = () => {
                     <div className='flex justify-center bg-violet-300 w-25 h-25 rounded-full p-5 mx-auto'>
                         <img src={rocketImg} alt="" />
                     </div>
-                    <h3 className="text-center my-2.5">Start Creating</h3>
-                    <p className="text-center">
+                    <h3 className="text-center my-2.5 text-[20px] font-bold">Start Creating</h3>
+                    <p className="text-center text-[16px] font-semibold">
                         Download and start using your premium tools immediately.
                     </p>
                 </div>
