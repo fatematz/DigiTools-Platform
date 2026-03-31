@@ -41,7 +41,7 @@ const Navbar = ({ cartCount }) => {
                             )}
                         </div>
                         <div className=''>Login</div>
-                        <div className=''>
+                        <div className='hidden md:block'>
                             <button className='btn  bg-gradient-to-r from-violet-600 to-purple-500 text-white font-semibold  rounded-full '>
                                 Get Started
                             </button>
