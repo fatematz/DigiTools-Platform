@@ -6,7 +6,7 @@ const MainSection=({sentData, catchData, setCatchData}) => {
     const receiveData=use(sentData)
     console.log( receiveData )
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5 md:mt-15 p-[10px] md:p-[0] ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5 md:mt-15 p-[20px] md:p-[20px] lg:px-[20px] xl:px-[0px] ">
             {
                 receiveData.map(item => <MainCard item={item} key={item.id} catchData={catchData} setCatchData={setCatchData} ></MainCard>  )
             }

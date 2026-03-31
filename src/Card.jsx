@@ -25,7 +25,7 @@ const Card = ({ catchData, setCatchData }) => {
 
 
     return (
-        <div className="space-y-9 mt-[40px] "> 
+        <div className="space-y-9 mt-[40px] px-[20px] md:px-[20px] lg:px-[20px] xl:px-[0px]"> 
             <h1>Your Cart</h1>
 
             {

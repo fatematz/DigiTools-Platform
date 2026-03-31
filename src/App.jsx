@@ -43,7 +43,7 @@ function App() {
       <StatsSection></StatsSection>
 
       <main>
-        <div className="py-[60px] md:py-[120px] p-[20px] md:p-[0] ">
+        <div className="py-[60px] md:py-[120px] p-[20px] md:p-[20px] lg:px-[20px] xl:px-[0px] ">
           <div className="container">
             <div className="text-center">
               <h2 className="text-3xl font-black">Premium Digital Tools</h2>

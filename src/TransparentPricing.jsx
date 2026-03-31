@@ -4,7 +4,7 @@ import { FaCheck } from 'react-icons/fa'
 const TransparentPricing = () => {
     return (
         <div className='bg-gray-50 pb-10 md:pb-20'>
-            <div className='container px-5 md:px-0  '>
+            <div className='container p-[20px] md:p-[20px] lg:px-[20px] xl:px-[0px]  '>
                 <div className='text-center mb-12'>
                     <h2 className='text-3xl font-black mb-4'>
                         Simple, Transparent Pricing
@@ -44,7 +44,7 @@ const TransparentPricing = () => {
                     </div>
 
                     
-                    <div className='relative bg-gradient-to-b from-violet-600 to-purple-500 rounded-2xl shadow-xl p-8 flex flex-col gap-4 text-white scale-105 my-[20px] '>
+                    <div className='relative bg-gradient-to-b from-violet-600 to-purple-500 rounded-2xl shadow-xl p-8 flex flex-col gap-4 text-white  my-[20px] '>
                         <div className='absolute -top-4 left-1/2 -translate-x-1/2'>
                             <span className='bg-yellow-300 text-yellow-900 text-xs font-bold px-4 py-1 rounded-full'>Most Popular</span>
                         </div>

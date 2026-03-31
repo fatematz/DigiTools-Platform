@@ -4,7 +4,7 @@ import { Play } from 'lucide-react'
 
 const Banner = () => {
     return (
-        <div className='container grid grid-cols-1 md:grid-cols-2 items-center text-center md:text-start p-[20px] md:p-[0px] gap-12.5  md:gap-37.5 py-10 md:py-27.5'>
+        <div className='container grid grid-cols-1 md:grid-cols-2 items-center text-center md:text-start p-[20px] md:p-[20px] lg:px-[20px] xl:px-[0px] gap-12.5  md:gap-37.5 py-10 md:py-27.5'>
             <div className='space-y-8'>
                 <div className='inline-flex items-center gap-2 bg-indigo-100 text-violet-700 font-semibold px-4 py-2 rounded-full'>
                     <span className='relative flex h-5 w-5 items-center justify-center'>

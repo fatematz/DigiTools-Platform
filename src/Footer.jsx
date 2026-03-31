@@ -7,8 +7,8 @@ import {FaXTwitter} from "react-icons/fa6";
 const Footer = () => {
     return (
         <div className="bg-gray-900 py-[60px] md:py-[120px] text-white">
-            <div className=" container  px-5 md:px-0">
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center md:text-start ">
+            <div className=" container  p-[20px] md:p-[20px] lg:px-[20px] xl:px-[0px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-8 text-center md:text-start ">
                     <div className="">
                         <img className="mx-auto md:mx-0" src={footerImg} alt="" />
                         <p className="mt-6">Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
