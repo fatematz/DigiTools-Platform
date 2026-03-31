@@ -35,7 +35,7 @@ function App() {
     <>
       
      
-        <Navbar></Navbar>
+        <Navbar cartCount={catchData.length}></Navbar>
      
 
       <Banner></Banner>
