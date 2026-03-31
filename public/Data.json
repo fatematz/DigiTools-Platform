@@ -7,7 +7,7 @@
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
-    "image": "https://i.ibb.co.com/ycNKxFGm/writing-2327400-1.png",
+    "image": "/images/products/writing.png",
     "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"]
   },
   {
@@ -18,7 +18,7 @@
     "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
-    "image": "https://i.ibb.co.com/mCs3v53G/design-tool.png",
+    "image": "/images/products/design-tool.png",
     "features": ["2000+ templates", "Monthly updates", "Commercial license"]
   },
   {
@@ -29,7 +29,7 @@
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
-   "image": "https://i.ibb.co.com/4wQyXtCS/Group-3.png",
+   "image": "/images/products/Group-3.png",
     "features": ["10M+ assets", "Commercial use", "No attribution"]
   },
   {
@@ -40,7 +40,7 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
-    "image": "https://i.ibb.co.com/k6g4CGwN/operation-11826522-1.png",
+    "image": "/images/products/operation.png",
     "features": ["50+ automations", "API access", "Custom workflows"]
   },
   {
@@ -51,7 +51,7 @@
     "period": "one-time",
     "tag": "New",
     "tagType": "new",
-    "image": "https://i.ibb.co.com/FkwdQkDL/portfolio.png",
+    "image": "/images/products/portfolio.png",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"]
   },
   {
@@ -62,7 +62,7 @@
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
-    "image": "https://i.ibb.co.com/TBHNVZBJ/social-media.png",
+    "image": "/images/products/social-media.png",
     "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"]
   }
 ]
