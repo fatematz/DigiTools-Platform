@@ -59,7 +59,7 @@ function App() {
             </div>
 
            
-         {tab === true ? (<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+         {tab === true ? (<Suspense fallback={<span className="loading loading-spinner loading-xl ml-[50%] mt-[20%] "></span>}>
         <MainSection sentData={sentData} catchData={catchData} setCatchData={setCatchData} ></MainSection>
             </Suspense>):(
                 <Card catchData={catchData} setCatchData={setCatchData}></Card>
