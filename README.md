@@ -1,28 +1,38 @@
-# Project Name :  DigiTools-Platform
+# DigiTools‑Platform
 
-# Description: 
+**Live Demo:** https://lnkd.in/gHrDTRhA
 
-A tab-based digital marketplace to browse, add, and purchase premium digital tools with real-time cart management.
+## 📝 Project Overview
+DigiTools‑Platform is a tab‑based digital marketplace web application built with React and Vite. It allows users to browse premium digital tools, add them to cart, and manage purchases with a dynamic interface.
 
+## 💻 Technology Stack
+- **Frontend:** React  
+- **Build Tool:** Vite  
+- **Styling:** Tailwind CSS + DaisyUI  
+- **Notifications:** React Toastify  
+- **Icons:** Lucide React  
+- **Languages:** JavaScript, HTML, CSS
 
-# Technologies:
+## ✨ Main Features
+- Real‑time Order Summary with dynamic total price  
+- Toast notifications for cart actions  
+- Duplicate item prevention in cart  
+- Responsive UI with tab navigation
 
-1/ React
+## 🛠 Dependencies
+react, react‑dom, tailwindcss, daisyui, react‑toastify, lucide‑react, vite
 
-2/ Vite
+## 🚀 Getting Started
 
-3/ Tailwind CSS
+Clone the repository: git clone https://github.com/fatematz/DigiTools-Platform.git  
+Navigate to the project folder: cd DigiTools‑Platform  
+Install dependencies: npm install  
+Start the development server: npm run dev  
+Open the app in your browser: http://localhost:5173
 
-4/ DaisyUI
+## 🔗 Relevant Links
+Repository Link: https://github.com/fatematz/DigiTools‑Platform  
+Live Demo: https://lnkd.in/gHrDTRhA
 
-5/ React Toastify
+![1775220503413](https://github.com/user-attachments/assets/49dd7cf6-f146-47d0-92b0-a0f58abf174e)
 
-6/ Lucide React
-
-# Features:
-
-1/ Real-time Order Summary with dynamic total price
-
-2/ Toast Notification for cart actions
-
-3/ Duplicate Item Prevention in Cart
